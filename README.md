@@ -10,7 +10,7 @@ The latest stable version is available from the [releases on GitHub](https://git
 
 [![Mesen](https://github.com/SourMesen/Mesen2/actions/workflows/build.yml/badge.svg)](https://github.com/SourMesen/Mesen2/actions/workflows/build.yml)
 
-#### <ins>Native builds</ins> (recommended) ####
+#### <ins>Native builds (AOT)</ins> (recommended) ####
 
 These builds don't require .NET to be installed.  
 
