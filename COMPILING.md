@@ -14,6 +14,9 @@ Once SDL2 and the .NET 8 SDK are installed, run `make` to compile with Clang.
 To compile with GCC instead, use `USE_GCC=true make`.  
 **Note:** Mesen usually runs faster when built with Clang instead of GCC.
 
+To create an AppImage, you must execute appimage.sh from the root folder, i.e., from the terminal:  Linux/appimage/appimage.sh
+
+Alternatively, navigate to ./Linux/appimage/ and execute appimage_reldir.sh, i.e., from the terminal:  ./appimage_reldir.sh
 
 ## macOS
 
