@@ -25,14 +25,16 @@ These builds require **.NET 8** to be installed (except the Windows 7 build whic
 For Linux and macOS, **SDL2** must also be installed.
 
 * [Windows 7 / 8 (.NET 6)](https://nightly.link/SourMesen/Mesen2/workflows/build/master/Mesen%20%28Windows%20-%20net6.0%29.zip)  
-* [Linux x64 - AppImage](https://nightly.link/SourMesen/Mesen2/workflows/build/master/Mesen%20(Linux%20x64%20-%20AppImage).zip)  
+* [Linux x64 - AppImage](https://nightly.link/SourMesen/Mesen2/workflows/build/master/Mesen%20(Linux%20x64%20-%20AppImage).zip)  (see AppImage note below)
 * [Linux ARM64](https://nightly.link/SourMesen/Mesen2/workflows/build/master/Mesen%20%28Linux%20-%20ubuntu-22.04-arm%20-%20clang%29.zip)  
-* [Linux ARM64 - AppImage](https://nightly.link/SourMesen/Mesen2/workflows/build/master/Mesen%20(Linux%20ARM64%20-%20AppImage).zip)
+* [Linux ARM64 - AppImage](https://nightly.link/SourMesen/Mesen2/workflows/build/master/Mesen%20(Linux%20ARM64%20-%20AppImage).zip)  (see AppImage note below)
 
 
 #### <ins>Notes</ins> ####
 
 Other builds are also available in the [Actions](https://github.com/SourMesen/Mesen2/actions) tab.
+
+For AppImage's, where you are utilizing XDG relative/local directories (<AppImage filename>.config and <AppImage filename>.home), on first launch, be sure to select "Store the data in my user profile" option for "Data Storage Location" so that the program does in fact utilize those directories.
 
 **SteamOS**: See [SteamOS.md](SteamOS.md)
 
